@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+@font-face {
+  font-family: 'akkurat-monoregular';
+  src: url('akkurat-mono-webfont.woff2') format('woff2'),
+       url('akkurat-mono-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+input[type=text]{
+font-family: akkurat-monoregular;
+font-size: 13.5px;
+background-color: rgb(150,150,150);
+border: none;
+box-shadow: none;
+}
+
+button {
+font-family: 'akkurat-monoregular';
+font-size: 13.5px;
+background-color: rgb(150,150,150);
+border: none;
+/* box-shadow: none; */
+}
