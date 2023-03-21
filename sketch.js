@@ -160,7 +160,7 @@ function draw() {
   text('pixel size', 135, pixelSpacingSlider.y+3);
   text('square <--> circle', 135, shapeSlider.y+3);
   text('blur', 135, blurSlider.y+3);
-  text('animate pixel size', 135, blurSlider.y + 80+3);
+  text('animate grid size', 135, blurSlider.y + 80+3);
   text('animate blur', 135, blurSlider.y + 120+3);
   text('frame rate', 135, framerateSlider.y+3);
   text('invader', 50, windowHeight-78);
